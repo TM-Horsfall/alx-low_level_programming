@@ -36,7 +36,7 @@ char *argstostr(int ac, char **av)
 			c++;
 		}
 		str[c] = '\n';
-		c++
+		c++;
 	}
 	return (str);
 }

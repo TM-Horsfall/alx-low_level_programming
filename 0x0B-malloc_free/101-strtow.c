@@ -9,7 +9,7 @@ char **strtow(char *str);
  * @str: The string to be searched
  * Return: The index marking the end of the initial word pointed to be str
  */
-inr word_len(char *str)
+int word_len(char *str)
 {
 	int index = 0, len = 0;
 

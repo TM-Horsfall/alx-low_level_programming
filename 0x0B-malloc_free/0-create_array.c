@@ -27,7 +27,7 @@ position = 0;
 while (position < size)
 {
 *(buffer + position) = c;
-position++
+position++;
 }
 return (buffer);
 }
