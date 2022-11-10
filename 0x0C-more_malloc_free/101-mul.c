@@ -4,11 +4,8 @@
 
 /**
  * main - Multiplies two positive numbers.
- * @argv: The number of arguments passed to the program.
- * @argc: An array of pointers to the arguments.
- *
- * Description: If the number of arguments is incorrect or one number
- *              contains non-digits, the function exits with a status of 98.
+ * @argc: n arguments
+ * @argv: args
  * Return: int
  */
 int main(int argc, char *argv[])
